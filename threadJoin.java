@@ -22,7 +22,7 @@ class mythread extends Thread
 }
 public class threadJoin
 {
-   public static void main(String[] args) throws InterruptedException// This is the checked exception for joi methode 
+   public static void main(String[] args) throws InterruptedException// This is the checked exception for join methode 
       {
           mythread t=new mythread();
           t.start();
